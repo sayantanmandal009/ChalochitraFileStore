@@ -1,4 +1,4 @@
-Pyrofork
+Pyrogram
 Tgcrypto
 asyncio
 aiohttp
