@@ -94,9 +94,9 @@ class Var(object):
     FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
-        URL = "https://rigid-caribou-sayantanorg-9c39f320.koyeb.app/"
+        URL = "electrical-suzie-sayantanorg-5875a6a8.koyeb.app/"
     else:
-        URL = "https://rigid-caribou-sayantanorg-9c39f320.koyeb.app/"
+        URL = "electrical-suzie-sayantanorg-5875a6a8.koyeb.app/"
 
 
 
