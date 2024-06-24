@@ -35,9 +35,9 @@ API_HASH = environ.get("API_HASH", "1ce817f26d6b4c9f9f706e318dbf98de")
 ADMINS = int(environ.get("ADMINS", "778976952"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://database67:stddb67data@cluster0.hqlm90a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "Cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://database66:dsbasedata@cluster0.yn1gcuj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = environ.get("DB_URI", "")
 DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "DataGuardian02_bot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "MAutoFW_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -62,7 +62,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 # Ask Doubt on telegram @KingVJ01
 
 # File Caption Information
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"@Chalochitra")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 
 # Enable - True or Disable - False
